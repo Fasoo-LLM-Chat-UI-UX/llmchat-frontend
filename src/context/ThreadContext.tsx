@@ -322,6 +322,7 @@ export function ThreadContextProvider({
         // 3. 메시지 보내기
         listenToMessegeSSE(response.id, message, response);
         console.log('메시지 전송 완료:', message);
+        console.log('test하고 지우기 | response : ', response)
 
         if (sort === 'asc') {
           resetThread('desc');
@@ -368,6 +369,8 @@ export function ThreadContextProvider({
           setMessages((prev) => [msgData, ...prev]);
           currentRollRef.current = 'ASSISTANT';
         } else {
+
+          
           // 3. 그 다음 답변부터 업데이트
           setMessages((prev) =>
             prev.map((msg, i) =>
