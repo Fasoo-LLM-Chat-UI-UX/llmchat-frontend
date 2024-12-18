@@ -13,6 +13,7 @@ const RecommendedQuestions = () => {
     '카메라에 잘 받는 옷 고르기',
     '생산성 극대화를 위한 모닝 루틴',
   ];
+
   return (
     <div
       className={`${style.recQuestionContainer} ${isSidebarOpen ? style.sidebarVisible : style.sidebarHidden}`}
