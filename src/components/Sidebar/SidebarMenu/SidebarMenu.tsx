@@ -37,9 +37,9 @@ function SidebarMenu({
           className={`${styles.IconButton} ${styles.createButton}`}
           onClick={handleCreateClick}
         >
-          <CreateIcon width="100px" />
+          <CreateIcon width="100px"/>
         </button>
-        <button className={styles.IconButton} onClick={onClose}>
+        <button className={styles.IconButtonIconButton} onClick={onClose}>
           <LeftIcon />
         </button>
       </div>

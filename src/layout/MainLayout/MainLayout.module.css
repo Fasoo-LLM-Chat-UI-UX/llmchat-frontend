@@ -35,5 +35,9 @@
   .sidebarVisible {
     margin-left: 0;
   }
- 
+
+  /* sidebar Hidden 정의 (undefined에러)  */
+  .sidebarHidden { 
+    margin-left: 0; 
+  }
 }
