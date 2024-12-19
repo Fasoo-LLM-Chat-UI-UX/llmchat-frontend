@@ -18,6 +18,11 @@ module.exports = {
       'emerald': "#2DCEA7",
       'emeraldBlue': '#56CAE6'
     },
+    extend: {
+      screens: {
+        'below-500': { max: '500px' },
+      },
+    },
   },
   plugins: [],
 };

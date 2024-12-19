@@ -49,9 +49,9 @@ export const NewLoginPage = () => {
 
   return (
     <div className="w-full h-[calc(100%-74px)] relative flex">
-      <div className="w-[50%] relative border-2 border-black flex items-center justify-center overflow-hidden">
-        <div className="absolute right-0 z-[-1] w-[1440px] h-[1440px] bg-gradient-to-b from-[10%] from-emerald to-emeraldBlue rounded-full"></div>
-        <div className="content flex flex-col items-center justify-center">
+      <div className="w-[50%] relative border-2 border-black flex items-center justify-center overflow-hidden below-500:!hidden" >
+        <div className="absolute right-0 z-[-1] w-[1440px] h-[1440px] bg-gradient-to-b from-[10%] from-emerald to-emeraldBlue rounded-full" ></div>
+        <div className="content flex flex-col items-center justify-center" >
           <img src={loginLogo} alt="login logo" />
           <h3 className="text-white mt-5">AEROCAHT에 오신 걸 환영합니다. </h3>
         </div>
